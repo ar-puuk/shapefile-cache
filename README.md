@@ -93,6 +93,17 @@ git status
 This should show you your updates again, but this time you can git commit and git push them and then
 open a PR so we can merge them into the base repo.
 
+
+### Why not compress the files?
+
+The original FTP site most of these files came from stored them in compressed form. Our initial
+goal with the project was to make it as quick and easy as possible for people to contribute what
+is in their cache. Those caches are uncompressed for speed, so we put uncompressed files here so
+the `rsync` in both directions is easy to manage.
+
+We might switch to compressed in the future, but for now the goal was for this to be as quick and
+simple to use as possible.
+
 ## Questions or Comments?
 
 Please open an issue or discussion in this repo.
